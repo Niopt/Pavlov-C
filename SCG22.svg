@@ -1,0 +1,80 @@
+<svg fill="none" viewBox="0 0 1200 800" width="1200" height="800" xmlns="http://www.w3.org/2000/svg" style="overflow: visible;">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="width: 100%; height: 100%;">
+      <style>
+        .doom-container {
+          background-color: #1a1a1a;
+          color: #ff4d4d;
+          padding: 25px;
+          border-radius: 10px;
+          border: 3px solid #ff4d4d;
+          font-family: 'Courier New', monospace;
+          box-shadow: 0 0 15px rgba(255, 77, 77, 0.5);
+          width: 100%;
+          height: 100%;
+          box-sizing: border-box;
+        }
+
+        .doom-title {
+          text-align: center;
+          font-size: 2.8em;
+          margin-bottom: 25px;
+          text-shadow: 3px 3px 6px #000000;
+        }
+
+        .doom-text {
+          font-size: 1.2em;
+          line-height: 1.6;
+          margin-bottom: 20px;
+          text-shadow: 1px 1px 2px #000000;
+        }
+
+        .doom-list {
+          list-style-type: none;
+          padding-left: 0;
+        }
+
+        .doom-list li {
+          font-size: 1.1em;
+          margin-bottom: 12px;
+          padding-left: 25px;
+          position: relative;
+        }
+
+        .doom-list li::before {
+          content: '🖤';
+          position: absolute;
+          left: 0;
+        }
+
+        .doom-footer {
+          text-align: center;
+          margin-top: 25px;
+          font-size: 1.4em;
+          font-weight: bold;
+        }
+      </style>
+
+      <div class="doom-container">
+        <h1 class="doom-title">🖤 Добро пожаловать в ад 🖤</h1>
+        <p class="doom-text">
+          Этот репозиторий — собрание практических работ по C#, которые прошли через огонь, серу и бесконечные часы отладки. 
+          Здесь вы найдете:
+        </p>
+        <ul class="doom-list">
+          <li>💀 Код, который не компилируется с первого, второго и даже третьего раза.</li>
+          <li>🔥 Бесконечные циклы, которые заставят ваш процессор плакать.</li>
+          <li>🕳️ Магические числа, которые никто не сможет объяснить.</li>
+          <li>😱 Исключения, которые возникают просто потому, что им так захотелось.</li>
+          <li>⚰️ Документацию, написанную кровью и слезами.</li>
+        </ul>
+        <p class="doom-text">
+          Если вы решили продолжить, знайте: <strong>ваша душа уже принадлежит этому репозиторию</strong>.
+        </p>
+        <div class="doom-footer">
+          <p>🚨 Сбежать можно, но зачем? 🚨</p>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
